@@ -1,8 +1,11 @@
 <xml>
     <title>get him back!</title>
-    <p>Lyrics[Intro: Alexander 23]</p>
-    <p>One, two, three</p>
-    <p>Wait, is this the song with the drums?</p>
+    <type>Lyrics</type>
+    
+    <intro persName="alexander23">
+        <p>One, two, three</p>
+        <p>Wait, is this the song with the drums?</p>
+    </intro>
 
     <verse n="1">
         <p>I met a guy in the summer, and I left him in the spring</p>
@@ -26,11 +29,10 @@
         <p>'Cause then again, I really miss him, and it makes me real sad</p>
         <p>Oh, I want sweet revenge, and I want him again</p>
         <p>I want to get him back, back, back</p>
-        <p>See Olivia Rodrigo LiveGet tickets as low as $68You might also like</p>
+        <p>You might also like</p>
     </chorus>
 
     <verse n="2">
-        <p>[Verse 2]</p>
         <p>So I write him all these letters, and I throw them in the trash</p>
         <p>'Cause I miss the way he kisses and the way he made me laugh</p>
         <p>Yeah, I pour my little heart out, but as I'm hitting "send"</p>
@@ -51,9 +53,8 @@
         <p>I want to get him back, back, back</p>
     </chorus>
 
-    <bridge>
-        <p>[Bridge: Olivia Rodrigo, Alexander 23]</p>
-        <p>I wanna key his car (I want to get him back)</p>
+    <bridge persName="olivia" persName="alexander23">
+        <p>I wanna key his car <format type="p">I want to get him back</format></p>
         <p>I wanna make him lunch (But then I, I want to get him back; Woo)</p>
         <p>I wanna break his heart (But then I, I want to get him back; Yeah, you got it)</p>
         <p>Then be the one to stitch it up (But then I, I want to get him back; yeah)</p>
