@@ -1,0 +1,67 @@
+p {
+    font-family: 'CMU Typewriter Text', sans-serif;
+}
+
+/* Reset default styles */
+h1,
+h2,
+h3,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+ /* Nav Bar */
+  nav {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'CMU Typewriter Text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  position: relative; /* Added for dropdown */
+}
+
+
+/* Font for titles at the top of the page*/
+.title { font-family: 'Earwig Factory', sans-serif;
+font-size: 60px;
+text-align: center;
+}
+
+/*Background color and body font*/
+body {
+  background-color: #9C9AD9;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  }
+  
+ /* Centering content with containers and styling it */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+ 
+  
