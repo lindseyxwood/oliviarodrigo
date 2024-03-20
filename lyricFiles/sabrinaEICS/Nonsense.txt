@@ -1,4 +1,4 @@
-55 ContributorsTranslationsEnglishСрпскиPortuguêsEnglish한국어ItalianoFrançaisNonsense Lyrics[Intro]
+[Intro]
 Oh-oh, oh-oh, oh-oh (Oh-oh, la-la)
 Da-ah, ah-ah, ah-ah-ah
 Uh-huh, uh-huh, uh-huh, uh-huh
@@ -27,7 +27,7 @@ I think I got an ex, but I forgot him
 And I can't find my chill, I must've lost it
 I don't even know, I'm talkin' nonsense
 I'm talkin', I'm talkin' (Ah-ah-ah-ah)
-You might also like[Verse 2]
+[Verse 2]
 I'm talkin' all around the clock
 I'm talkin' hope nobody knocks
 I'm talkin' opposite of soft
@@ -67,4 +67,4 @@ I bet your house is where my other sock is
 Woke up this morning, thought I'd write a pop hit, ha-ha
 How quickly can you take your clothes off? Pop quiz
 That one's not gonna make it
-Most of these aren't gonna make—13Embed
+Most of these aren't gonna make—

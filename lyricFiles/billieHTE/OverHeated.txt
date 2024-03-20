@@ -1,4 +1,4 @@
-73 ContributorsTranslationsРусскийСрпскиTürkçeEspañolPortuguêsItalianoDeutschFrançais‌Billie Eilish - OverHeated (ترجمه‌ی فارسی)OverHeated Lyrics[Verse 1]
+[Verse 1]
 I don't really even know how it happened
 I started talkin', they started laughin'
 I don't really even know how it happened
@@ -26,7 +26,7 @@ It's kinda workin'
 Did you really think "This is the right thing to do"?
 (Is it news? News to who?)
 That I really look just like the rest of you
-You might also like[Chorus]
+[Chorus]
 I'm overheated, can't be defeated
 Can't be deleted, can't un-believe it
 I'm overheated, can't be defeated
@@ -48,4 +48,4 @@ Man, I'm overheated, can't be defeated
 Can't be deleted, can't un-believe it
 I'm overheated, can't be defeated
 Can't be deleted, can't be repeated
-I'm overheated30Embed
+I'm overheated

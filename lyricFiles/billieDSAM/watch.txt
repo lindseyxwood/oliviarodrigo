@@ -1,4 +1,4 @@
-123 ContributorsTranslationsEspañolDeutschFrançaisNederlandsDanskРусскийTürkçe​watch Lyrics[Verse 1]
+[Verse 1]
 Lips meet teeth and tongue
 My heart skips eight beats at once
 If we were meant to be, we would have been by now
@@ -25,7 +25,7 @@ But you never came back to ask it out
 Go ahead and watch my heart burn
 With the fire that you started in me
 But I'll never let you back to put it out
-You might also like[Bridge]
+[Bridge]
 When you call my name
 Do you think I'll come runnin'?
 You never did the same
@@ -47,4 +47,4 @@ But I'll never let you back to put it out
 Ooh, never let you back
 Let you back, let you back
 Never gonna let you back
-Let you back72Embed
+Let you back

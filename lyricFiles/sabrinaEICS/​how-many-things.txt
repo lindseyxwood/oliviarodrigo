@@ -1,4 +1,4 @@
-26 ContributorsTranslationsEnglishСрпскиPortuguêsFrançaisItaliano​how many things Lyrics[Verse 1]
+[Verse 1]
 You used a fork once
 It turns out forks are fuckin' everywhere
 There’s no hiding from the thought of us
@@ -27,7 +27,7 @@ Remember when you left once?
 That never made too much sense to me
 Well, it hurt you so bad hurting me
 You really came to me for sympathy
-You might also like[Pre-Chorus]
+[Pre-Chorus]
 Oh, I consider you and I'm not trying to
 It doesn't matter whether not I want to
 I can't help it, it's a habit
@@ -53,4 +53,4 @@ I wonder how many things you think about
 Before, before you get to me
 
 [Outro]
-Wonder how many things6Embed
+Wonder how many things

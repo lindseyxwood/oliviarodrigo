@@ -1,4 +1,4 @@
-277 ContributorsTranslationsTürkçeEspañolHrvatskiРусскийRomânăPortuguêsNorsk (bokmål / riksmål)日本語DeutschFrançaisEnglishNederlandsDanskالعربيةСрпскиPolskiTherefore I Am Lyrics[Chorus]
+[Chorus]
 I'm not your friend
 Or anything, damn
 You think that you're the man
@@ -30,7 +30,7 @@ I'm not your friend
 Or anything, damn
 You think that you're the man
 I think, therefore, I am
-You might also like[Verse 2]
+[Verse 2]
 I don't want press to put your name next to mine
 We're on different lines, so I
 Wanna be nice enough, they don't call my bluff
@@ -68,4 +68,4 @@ I think, therefore, I am
 I'm not your friend (I'm not your friend)
 Or anything, damn (They wanna)
 You think that you're the man
-I think, therefore, I am179Embed
+I think, therefore, I am

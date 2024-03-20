@@ -1,4 +1,4 @@
-171 ContributorsTranslationsTürkçeEspañolРусскийRomânăPortuguêsNorsk (bokmål / riksmål)ItalianoMagyarDeutschFrançaisفارسیNDA Lyrics[Verse 1]
+[Verse 1]
 Did you think I'd show up in a limousine? (No)
 Had to save my money for security
 Got a stalker walkin' up and down the street
@@ -27,7 +27,7 @@ At least I gave him somethin' he can cry about
 I thought about my future, but I want it now, oh-oh-oh
 Want it now, mm-mm-mm
 You can't give me up
-You might also like[Chorus]
+[Chorus]
 You couldn't save me, but you can't let me go, oh, no
 I can crave you, but you don't need to know, oh-oh
 
@@ -40,4 +40,4 @@ Think I took it too far
 When I sold you my heart
 How'd it get so dark?
 I saw stars
-Stars97Embed
+Stars

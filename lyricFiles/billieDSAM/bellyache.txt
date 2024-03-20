@@ -1,4 +1,4 @@
-210 ContributorsTranslationsFrançaisTürkçeEspañolDeutschNederlandsРусскийRomanization​bellyache Lyrics[Intro]
+[Intro]
 Mind
 Mind
 
@@ -27,7 +27,7 @@ Where's my mind?
 Where's my mind?
 Where's my mind?
 Where's my mind?
-You might also like[Chorus]
+[Chorus]
 Maybe it's in the gutter
 Where I left my lover
 What an expensive fake
@@ -64,4 +64,4 @@ Where I left my lover
 What an expensive fake
 My V is for Vendetta
 Thought that I'd feel better
-But now I got a bellyache172Embed
+But now I got a bellyache

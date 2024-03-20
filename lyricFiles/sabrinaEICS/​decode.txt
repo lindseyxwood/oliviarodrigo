@@ -1,4 +1,4 @@
-40 ContributorsTranslationsEspañolHrvatskiPortuguêsItalianoFrançais​decode Lyrics[Verse 1]
+[Verse 1]
 You're good at the fallin', not the stayin' there
 You're good at the givin' too much, then gettin' scared
 You're good at impersonating someone who cares
@@ -28,7 +28,7 @@ There's a weight off my shoulders now that I don't chase you
 Bein' myself, did that emasculate you?
 Learnin' from you that I can walk away too
 And you had me for a minute too
-You might also like[Pre-Chorus]
+[Pre-Chorus]
 But now I wonder why
 I let your indecision keep me up at night
 I'm so tired
@@ -71,4 +71,4 @@ There's nothin', there's nothin', there's nothin' (No, mm)
 There's nothin' left here to decode
 
 [Outro]
-I wanna make a video to our future selves8Embed
+I wanna make a video to our future selves

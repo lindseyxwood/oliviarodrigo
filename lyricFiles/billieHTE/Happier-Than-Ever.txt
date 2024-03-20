@@ -1,4 +1,4 @@
-295 ContributorsTranslationsРусскийTürkçeEspañolРусскийPortuguêsNorsk (bokmål / riksmål)日本語ItalianoDeutschFrançaisفارسیУкраїнськаMagyar한국어العربيةHappier Than Ever Lyrics[Chorus]
+[Chorus]
 When I'm away from you
 I'm happier than ever
 Wish I could explain it better
@@ -25,7 +25,7 @@ When I'm away from you (When I'm away from you)
 I'm happier than ever (Happier than ever)
 Wish I could explain it better (Wish I could explain it better)
 I wish it wasn't true, mm-mm
-You might also like[Verse 2]
+[Verse 2]
 You call me again, drunk in your Benz
 Drivin' home under the influence
 You scared me to death, but I'm wastin' my breath
@@ -56,4 +56,4 @@ Just fuckin' leave me alone, yeah (Fuck you)
 (Goddamn)
 (Ah)
 (Fuck you)
-(Fuck you)316Embed
+(Fuck you)
