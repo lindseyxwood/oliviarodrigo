@@ -1,4 +1,4 @@
-144 ContributorsTranslationsFrançaisNederlandsفارسیDeutschFrançaisTürkçeРусскийEspañol​​party favor Lyrics[Intro]
+[Intro]
 Hey, leave a message
 
 [Verse 1]
@@ -24,7 +24,7 @@ Happy birthday, by the way
 You know that's bullshit
 Don'tcha, babe?
 I'm not your party favor
-You might also like[Verse 2]
+[Verse 2]
 Look, now I know we coulda done it better
 But we can't change the weather
 When the weather's come and gone
@@ -45,4 +45,4 @@ Happy birthday by the way
 "It's not you, it's me" and all that other bullshit
 You know that's bullshit
 Don'tcha, babe?
-I'm not your party favor64Embed
+I'm not your party favor

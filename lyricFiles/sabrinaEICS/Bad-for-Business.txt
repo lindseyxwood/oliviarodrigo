@@ -1,4 +1,4 @@
-43 ContributorsTranslationsEspañolСрпскиPortuguêsItalianoFrançaisBad for Business Lyrics[Chorus]
+[Chorus]
 He's good for my heart, but he's bad for business
 Tears me apart when he grants my wishes
 All of my friends think I've gone crazy
@@ -23,7 +23,7 @@ He's good for my heart, but he's bad for business
 Tears me apart when he grants my wishes
 All of my friends think I've gone crazy
 But they don't know me like my baby
-You might also like[Verse 2]
+[Verse 2]
 If I'm just writin' happy songs
 Will anybody sing along?
 You had to go and break into my head
@@ -61,4 +61,4 @@ But they don't know me like my baby
 He's good for my heart, but he's bad for business (So bad)
 Tears me apart when he grants my wishes
 All of my friends think I've gone crazy
-But they don't know me like my baby7Embed
+But they don't know me like my baby

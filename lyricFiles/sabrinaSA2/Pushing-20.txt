@@ -1,4 +1,4 @@
-36 ContributorsTranslationsNederlandsPushing 20 Lyrics[Verse 1]
+[Verse 1]
 What, what, what, whatcha say, Mr. Clean?
 I'm flagging you down for a misdemeanor
 It must look different from your mezzanine
@@ -27,7 +27,7 @@ And while you're wasting time, the money's in the meter
 So I can start from scratch, make you a believer
 Or I can just, da da da
 Act like I don't give a, uh
-You might also like[Pre-Chorus]
+[Pre-Chorus]
 You got a way, you're messing with my faith
 You're tryna paint a picture but you're running out of paint
 You had your say 'til I took it away
@@ -66,4 +66,4 @@ No, no, no, no rewind
 No, no rewind, yeah (I got no)
 I got no time, I got no time (I got no time, no)
 No, no, no, no rewind (No, no, no, no rewind, no)
-No, no rewind67Embed
+No, no rewind
