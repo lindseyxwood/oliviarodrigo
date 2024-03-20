@@ -12,3 +12,6 @@ Thumbs.db
 .idea/
 venv/
 __pycache__/
+lib/
+bin/
+.cfg
