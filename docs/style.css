@@ -13,7 +13,7 @@ li {
 }
  /* Nav Bar */
   nav {
-  background-color: #FFFFFF;
+  background-color: #807EBF;
   width: 100%;
   padding: 10px 0;
   text-align: center;
@@ -33,14 +33,15 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 20px;
-  position: relative; /* Added for dropdown */
+  position: relative; 
 }
 
 
-/* Font for titles at the top of the page*/
+/* Font for title at the top of the page*/
 .title { font-family: 'Earwig Factory', sans-serif;
-font-size: 60px;
+font-size: 70px;
 text-align: center;
+
 }
 
 /*Background color and body font*/
@@ -58,10 +59,19 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f9f9f9;
     border-radius: 5px;
+    border: 4px solid #807EBF;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-bottom: 20px; 
+  }
   
+a {
+    font-family: 'CMU Typewriter Text', sans-serif;
+}
+.copyright {
+     text-align: center;
+}
  
   
