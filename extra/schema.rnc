@@ -1,0 +1,7 @@
+start = lyrics 
+lyrics = element lyrics { section* }
+section = element section {type,(n | subtype)?,l+} 
+type = attribute type { "verse" | "chorus" | "bridge" | "outro" | "pre-chorus" | "interlude" | "refrain" | "postchorus" | "breakdown" | "intro" | "post-chorus" | "break" }
+n = attribute n {xsd:integer?}
+subtype = attribute subtype {text}
+l = element l {text}
