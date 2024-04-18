@@ -22,6 +22,8 @@ nav {
     font-style: normal;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    position: relative; /* Ensures z-index works properly */
+    z-index: 2; /* Places the nav bar above the title background */
 }
 
 nav ul {
@@ -40,9 +42,18 @@ nav ul li {
 
 /* Font for title at the top of the page*/
 .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Earwig Factory', sans-serif;
     font-size: 70px;
-    text-align: center;
+    background-image: url("images/purp.jpg");
+    background-size: 120%;
+    background-position: 80% 20%;
+    position: relative;
+    z-index: 1;
+    height: 150px;
+
 
 }
 
@@ -82,7 +93,7 @@ body {
 .analysis-content {
     display: flex;
     align-items: center;
-    
+
 }
 .analysis-content img {
     height: 250px;
@@ -91,8 +102,8 @@ body {
     width: 60%;
     margin-left: 20px;
 }
-.analysis-content h3{
-    margin-top: 0; 
+.analysis-content h3 {
+
 }
 
 img {
@@ -108,38 +119,50 @@ a {
 }
 
 /*Song List  */
-.song-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 30px;
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  border: 4px solid #807EBF;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
+.container-background {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-image: url("images/purp.jpg");
+    background-size: 100%;
+    border-radius: 5px;
+    border: 4px solid #807EBF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
 
 }
 
+.song-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 4px solid #807EBF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
 .song-list {
-  list-style-type: none;
-  padding: 0;
-  text-align: center; /* Align the song names to the left */
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Align the song names to the left */
 }
 song-row {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .song-row a {
-  flex: 1;
-  padding: 15px;
-  text-decoration: none;
-  color: #333;
+    flex: 1;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
 }
 
 .song-row a:hover {
-  color: #807EBF;
+    color: #807EBF;
 }
 
 ul {
