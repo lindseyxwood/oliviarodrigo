@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Olivia Rodrigo Project</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/earwig-factory?styles=3588');
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Sans&display=swap');
+            @import url('https://fonts.cdnfonts.com/css/cmu-typewriter-text');</style>
+    </head>
+    <body>
+        <header>
+         
+            <h1 class="title">The Olivia Rodrigo Project</h1>
+           
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="song-list.html">Song List</a>
+                    </li>
+                    <li>
+                        <a href="analysis.html">Analysis</a>
+                    </li>
+                    <li>
+                        <a href="reflection.html">Reflection</a>
+                    </li>
+                    <li>
+                        <a href="code.html">Code</a>
+                    </li>
+                    <li>
+                        <a href="contributors.html">Contributors</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <br />
+        <div class="analysis-container">
+            <div>
+                <h2 style="text-align: center;">Network Visualization Analysis</h2>
+                <div class="analysis-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in
+                        iaculis nunc sed. Quisque id diam vel quam elementum pulvinar etiam non
+                        quam. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit.
+                        Sagittis orci a scelerisque purus semper eget duis at. Aliquet nec
+                        ullamcorper sit amet risus. Nisl condimentum id venenatis a condimentum.
+                        Fames ac turpis egestas integer eget aliquet nibh praesent. Nulla aliquet
+                        porttitor lacus luctus accumsan tortor posuere ac ut. Gravida arcu ac tortor
+                        dignissim convallis aenean. Lacus vestibulum sed arcu non. Leo vel fringilla
+                        est ullamcorper eget nulla facilisi etiam.</p>
+                    <img src="images/placeholder-image.jpg" alt="place holder image">
+                </div>
+            </div>
+        </div>
+        <div class="analysis-container">
+            <div>
+                <h2 style="text-align: center;">Antconc Keyness (Effect & Likelihood) Visualization
+                    Analysis</h2>
+                <br>
+                <br>
+                <div class="analysis-content">
+                    <div class="analysis-container">
+                        <h3 style="text-align: center;">Keyness (Effect)</h3>
+                        <p> Using AntConc's keyword analysis feature, we were able to find
+                             statistically significant keywords in Olivia Rodrigo's song lyrics.
+                             After identifying these top words, we looked at their Keyness (Effect),
+                             which indicates how strong each of their associations are in Olivia's
+                            lyrics compared to Taylor's, Billie's, and Sabrina's combined lyrics. To
+                            visualize the stronger-associated words, the word cloud makes them
+                            appear larger than the weaker ones. The word "I" had the highest keyness
+                            (effect) at 0.127, followed by "and" (0.046), "so" (0.021), "all" (0.020), "ah" (0.014), "him" (0.012), "back" (0.010),
+                            "her" (0.08), and "she" (0.08).</p>
+                    </div>
+                    <img src="images/olivia_keyness_effect.png" alt="keyness effect">
+                </div>
+                <br>
+                <br>
+                <div class="analysis-content">
+                    <div class="analysis-container">
+                        <h3 style="text-align: center;">Keyness (Likelihood)</h3>
+                        <p>The “Keyness” (Likelihood) results indicate the likelihood of each word
+                            being a key term in Olivia Rodrigo’s lyrics compared to the combined
+                            lyrics of the other artists in her genre. The word cloud visualizes this
+                            by not only making the higher values bigger, but also by its color
+                            gradient that turns from dark blue to pink as the likelihood values get
+                            lower. The word with the highest keyness (likelihood) value was
+                            “him” (94.186), followed by “I” (71.399), “her” (67.193), and “logical”
+                            (48.680).</p>
+                    </div>
+                    <img src="images/olivia_keyness_likelihood.png" alt="keyness likelihood">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Created for the DIGIT 210: Text-analysis class at Penn State Behrend</p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <img alt="Creative Commons License" style="border-width:0"
+                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+            </a>
+        </div>
+    </body>
+</html>
