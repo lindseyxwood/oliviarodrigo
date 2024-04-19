@@ -86,8 +86,8 @@ body {
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 5px;
-    border: 4px solid #807EBF;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 0px solid #807EBF;
+   
     margin-bottom: 20px;
 }
 .analysis-content {
@@ -167,4 +167,10 @@ song-row {
 
 ul {
     font-family: 'CMU Typewriter Text', sans-serif;
+}
+.adjectiveviz {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
