@@ -13,9 +13,7 @@
     </head>
     <body>
         <header>
-
             <h1 class="title">The Olivia Rodrigo Project</h1>
-        
             <nav>
                 <ul>
                     <li>
@@ -42,44 +40,44 @@
                     <li>
                         <a href="contributors.html">Contributors</a>
                     </li>
-                    
                 </ul>
             </nav>
         </header>
         <br />
-        
         <div class="container">
-            <h2>Our Research Question </h2>
-            <p>How do Olivia Rodrigo's lyrics and thematic elements compare or contrast to other
-                female artists within the same musical genre? </p>
+            <h2>Retrieving Source Documents</h2>
+            <p>Our collection of source documents was retrieved from <a href="https://genius.com/"
+                    target="blank">Genius</a>. We webscraped the lyrics from each artist and album
+                using Python (see code below). This was a good basis for our project because it
+                provided us with structred text files which we then altered for our courpus
+                analysis.</p>
+            <pre class="code-container"><code>GENIUS_API_TOKEN='hmbNz6OGtNv2DNSTaZ0UMegsY9fUXxpoB9_el_rx59pgtbis-_Iydx1D_yB7nQm7'
+
+from lyricsgenius import Genius
+
+genius = Genius(GENIUS_API_TOKEN)
+# artist = genius.search_artist("Olivia Rodrigo", max_songs=3, sort="title")
+# print(artist.songs)
+
+album = genius.search_album("Guts", "Olivia Rodrigo")
+
+for track in album.tracks:
+    file_name = track.song.title + ".txt"
+    print("Downloading file: " + file_name)
+    with open(file_name, 'w') as f:
+        f.write(track.song.lyrics)
+    #print(track.song.lyrics)
+
+# album.save_lyrics()
+</code></pre>
         </div>
-        <br>
         <div class="container">
-            <h2>About Our Project</h2>
-            <p>With Olivia Rodrigo's sudden rise to fame in the music industry, our team found it
-                compelling to use Python NLP techniques as a means to examine her songwriting. We
-                aim to analyze her song lyrics and themes in comparison to those of other prominent
-                female artists within the same musical genre. To accomplish this, we collected
-                albums from artists Taylor Swift, Billie Eilish, and Sabrina Carpenter for an
-                in-depth analysis, seeking to uncover distinctive patterns and themes. </p>
-        </div>
-        <br>
-       
-        <div class="container-background"><div class="container">
-            <h2>Sources</h2>
-            <p>
-                <a href="https://www.cdnfonts.com/earwig-factory.font" target="blank">Title Font</a>
-                <br />
-                <a href="https://www.cdnfonts.com/cmu-typewriter-text.font" target="blank">Paragraph
-                    Font</a>
-                <br />
-                <a href="https://fonts.google.com/specimen/Lato" target="blank">Heading Font</a>
-                <br />
-                <a href="https://www.freevector.com/purple-butterfly" target="blank">Favicon</a>
-                <br>
-                <a href="https://www.freepik.com/free-photo/empty-monochromatic-light-blue-background_10072667.htm" target ="blank">Texture Background</a>
-            </p>
-        </div></div>
+            <h2>Cleaning Text Files</h2>
+            <p> We found that our collection of lyric text files contained unrelated information
+                that needed to be removed. This included descriptions of advertisements shown on the
+                    <a href="https://genius.com/" target="blank">Genius</a> website scattered within
+                the song lyrics. We used Oxygen's Find and Replace in files to capture and discard
+                of this information. The cleaned text files can be viewed on the <a href="song-list.html">Song List</a> page! </p></div>
         <div class="copyright">
             <p>Created for the DIGIT 210: Text-analysis class at Penn State Behrend</p>
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">

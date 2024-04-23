@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Olivia Rodrigo Project</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/earwig-factory?styles=3588');
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Sans&display=swap');
+            @import url('https://fonts.cdnfonts.com/css/cmu-typewriter-text');</style>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">The Olivia Rodrigo Project</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="song-list.html">Song List</a>
+                    </li>
+                    <li>
+                        <a href="text-corpus.html">Text Corpus</a>
+                    </li>
+                    <li>
+                        <a href="methods.html">Methods</a>
+                    </li>
+                    <li>
+                        <a href="analysis.html">Analysis</a>
+                    </li>
+                    <li>
+                        <a href="reflection.html">Reflection</a>
+                    </li>
+                    <li>
+                        <a href="code.html">Code</a>
+                    </li>
+                    <li>
+                        <a href="contributors.html">Contributors</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <br />
+        <div class="container">
+            <h2>Regex (Text to XML Files)</h2>
+            <p>Once we had collected and cleaned our text files, we used Regex to convert them into
+                XML format. This was a crucial step for our project, as it was important that we
+                created an XML structure that was machine-readable and easy to further analyze. We
+                created a simple yet informative structure where each section of the song is wrapped
+                in a <b><span style="color: blue">&lt;section&gt;</span></b> element with a
+                corresponding attribute indicating the type of section. Lines of lyrics within each
+                section are wrapped in <b><span style="color: blue">&lt;l&gt;</span></b> elements.
+                Some sections also have <b><span style="color: blue">n</span></b> attributes to
+                indicate the verse number. Below is an example of one of our XML lyric files. </p>
+            <pre class="code-container">
+&lt;lyrics&gt;
+&lt;section type="intro"&gt;
+&lt;l&gt;(Ah)&lt;/l&gt;
+&lt;/section&gt;
+&lt;section type="verse" n="1"&gt;
+&lt;l&gt;Well, good for you, I guess you moved on really easily&lt;/l&gt;
+&lt;l&gt;You found a new girl and it only took a couple weeks&lt;/l&gt;
+&lt;l&gt;Remember when you said that you wanted to give me the world?&lt;/l&gt;
+&lt;l&gt;(World)&lt;/l&gt;
+&lt;l&gt;And good for you, I guess that you've been workin' on yourself&lt;/l&gt;
+&lt;l&gt;I guess that therapist I found for you, she really helped&lt;/l&gt;
+&lt;l&gt;Now you can be a better man for your brand-new girl (Girl)&lt;/l&gt;
+&lt;/section&gt;
+&lt;section type="chorus"&gt;
+&lt;l&gt;Well, good for you&lt;/l&gt;
+&lt;l&gt;You look happy and healthy, not me&lt;/l&gt;
+&lt;l&gt;If you ever cared to ask&lt;/l&gt;
+&lt;l&gt;Good for you&lt;/l&gt;
+&lt;l&gt;You're doin' great out there without me, baby&lt;/l&gt;
+&lt;l&gt;God, I wish that I could do that&lt;/l&gt;
+&lt;l&gt;I've lost my mind, I've spent the night&lt;/l&gt;
+&lt;l&gt;Cryin' on the floor of my bathroom&lt;/l&gt;
+&lt;l&gt;But you're so unaffected, I really don't get it&lt;/l&gt;
+&lt;l&gt;But I guess good for you&lt;/l&gt;
+&lt;/section&gt;
+&lt;section type="verse" n="2"&gt;
+&lt;l&gt;Well, good for you, I guess you're gettin' everything you want (Ah)&lt;/l&gt;
+&lt;l&gt;You bought a new car and your career's really takin' off (Ah)&lt;/l&gt;
+&lt;l&gt;It's like we never even happened&lt;/l&gt;
+&lt;l&gt;Baby, what the fuck is up with that? (Ah)&lt;/l&gt;
+&lt;l&gt;And good for you, it's like you never even met me&lt;/l&gt;
+&lt;l&gt;Remember when you swore to God I was the only&lt;/l&gt;
+&lt;l&gt;Person who ever got you? Well, screw that, and screw you&lt;/l&gt;
+&lt;l&gt;You will never have to hurt the way you know that I do&lt;/l&gt;
+&lt;/section&gt;
+&lt;section type="chorus"&gt;
+&lt;l&gt;Well, good for you&lt;/l&gt;
+&lt;l&gt;You look happy and healthy, not me&lt;/l&gt;
+&lt;l&gt;If you ever cared to ask&lt;/l&gt;
+&lt;l&gt;Good for you&lt;/l&gt;
+&lt;l&gt;You're doin' great out there without me, baby&lt;/l&gt;
+&lt;l&gt;God, I wish that I could do that&lt;/l&gt;
+&lt;l&gt;I've lost my mind, I've spent the night&lt;/l&gt;
+&lt;l&gt;Cryin' on the floor of my bathroom&lt;/l&gt;
+&lt;l&gt;But you're so unaffected, I really don't get it&lt;/l&gt;
+&lt;l&gt;But I guess good for you&lt;/l&gt;
+&lt;/section&gt;
+&lt;section type="break"&gt;
+&lt;l&gt;(Ah-ah-ah-ah)&lt;/l&gt;
+&lt;l&gt;(Ah-ah-ah-ah)&lt;/l&gt;
+&lt;/section&gt;
+&lt;section type="bridge"&gt;
+&lt;l&gt;Maybe I'm too emotional&lt;/l&gt;
+&lt;l&gt;But your apathy's like a wound in salt&lt;/l&gt;
+&lt;l&gt;Maybe I'm too emotional&lt;/l&gt;
+&lt;l&gt;Or maybe you never cared at all&lt;/l&gt;
+&lt;l&gt;Maybe I'm too emotional&lt;/l&gt;
+&lt;l&gt;Your apathy is like a wound in salt&lt;/l&gt;
+&lt;l&gt;Maybe I'm too emotional&lt;/l&gt;
+&lt;l&gt;Or maybe you never cared at all&lt;/l&gt;
+&lt;/section&gt;
+&lt;section type="chorus"&gt;
+&lt;l&gt;Well, good for you&lt;/l&gt;
+&lt;l&gt;You look happy and healthy, not me&lt;/l&gt;
+&lt;l&gt;If you ever cared to ask&lt;/l&gt;
+&lt;l&gt;Good for you&lt;/l&gt;
+&lt;l&gt;You're doin' great out there without me, baby&lt;/l&gt;
+&lt;l&gt;Like a damn sociopath&lt;/l&gt;
+&lt;l&gt;I've lost my mind, I've spent the night&lt;/l&gt;
+&lt;l&gt;Cryin' on the floor of my bathroom&lt;/l&gt;
+&lt;l&gt;But you're so unaffected, I really don't get it&lt;/l&gt;
+&lt;l&gt;But I guess good for you&lt;/l&gt;
+&lt;/section&gt;
+&lt;section type="outro"&gt;
+&lt;l&gt;Well, good for you, I guess you moved on really easily&lt;/l&gt;
+&lt;/section&gt;
+&lt;/lyrics&gt;
+</pre>
+        </div>
+        <div class="container">
+            <h2>Our Schema</h2>
+            <p> Explanation of our schema </p>
+            <pre class="code-container">
+start = lyrics 
+lyrics = element lyrics { section* }
+section = element section {type,(n | subtype)?,l+} 
+type = attribute type { "verse" | "chorus" | "bridge" | "outro" | "pre-chorus" | "interlude" | "refrain" | "postchorus" | "breakdown" | "intro" | "post-chorus" | "break" }
+n = attribute n {xsd:integer?}
+subtype = attribute subtype {text}
+l = element l {text}
+            </pre>
+        </div>
+        <div class="copyright">
+            <p>Created for the DIGIT 210: Text-analysis class at Penn State Behrend</p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <img alt="Creative Commons License" style="border-width:0"
+                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" />
+            </a>
+        </div>
+    </body>
+</html>

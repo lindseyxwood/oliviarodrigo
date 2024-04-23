@@ -102,9 +102,6 @@ body {
     width: 60%;
     margin-left: 20px;
 }
-.analysis-content h3 {
-
-}
 
 img {
     max-width: 100%;
@@ -174,3 +171,18 @@ ul {
   margin-right: auto;
   width: 60%;
 }
+.code-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 4px solid #807EBF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: #eee;
+    height: 300px;
+    overflow: auto;
+    }
+
+
