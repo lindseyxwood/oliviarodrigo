@@ -45,30 +45,33 @@
             </nav>
         </header>
         <br />
-        <div class="analysis-container">
+        <div class="butterfly"></div>
+        <div class="star"></div>
+        <div class="cherry"></div>
+        <div class="smiley"></div>
+        <div class="heart"></div>
+        <div class="container">
             <div>
-                <h2 style="text-align: center;">Network Visualization Analysis</h2>
+                <h2>Network Visualization Analysis</h2>
                 <br>
-                <div class="analysis-content">
-                    <div>
-                        <h3 style="text-align: center;">Noun Visualization</h3>
-                        <p>For our Noun Visualization, we took the top 30 nouns throughout all of
-                            Olivia's, Taylor's, Billie's, and Sabrina's song and created a Network
-                            Visualization based off the data. Each line connects to a word that is
-                            used by an artist. The thickness of line depends on how much the artist
-                            uses the word. The most used noun by these artist was "time" as it was
-                            used 191 times. Individually it was used by Billie "24" times, Olivia
-                            "25" times, Sabrina "86" times, and Taylor "51" times. When looking at
-                            the line connections, one can see the thickness variation according to
-                            their use by each artist. The use of nouns like "time," "night," "day,"
-                            and "daylight" indicates a focus on time of day. The prominence of
-                            "love," "baby," "friend," and "boy" suggests a recurring theme of
-                            relationships and love in their music. Specifically for Olivia, she used
-                            the word "love" "59" times throughout her songs. This is interesting as
-                            she had the least amount of songs compared to Taylor, Sabrina, and
-                            Billie. Their "love" count was "99," "56," and "44" respectively. Olivia
-                            seems to put heavy emphasis on love throughout her songs.</p>
-                    </div>
+                <div class="analysis-container">
+                    <h3>Noun Visualization</h3>
+                    <p>For our Noun Visualization, we took the top 30 nouns throughout all of
+                        Olivia's, Taylor's, Billie's, and Sabrina's song and created a Network
+                        Visualization based off the data. Each line connects to a word that is
+                        used by an artist. The thickness of line depends on how much the artist
+                        uses the word. The most used noun by these artist was "time" as it was
+                        used 191 times. Individually it was used by Billie "24" times, Olivia
+                        "25" times, Sabrina "86" times, and Taylor "51" times. When looking at
+                        the line connections, one can see the thickness variation according to
+                        their use by each artist. The use of nouns like "time," "night," "day,"
+                        and "daylight" indicates a focus on time of day. The prominence of
+                        "love," "baby," "friend," and "boy" suggests a recurring theme of
+                        relationships and love in their music. Specifically for Olivia, she used
+                        the word "love" "59" times throughout her songs. This is interesting as
+                        she had the least amount of songs compared to Taylor, Sabrina, and
+                        Billie. Their "love" count was "99," "56," and "44" respectively. Olivia
+                        seems to put heavy emphasis on love throughout her songs.</p>
                 </div>
                 <div>
                     <iframe src="images/degreeNetworkVis.html" width="1000" height="600"></iframe>
@@ -83,9 +86,9 @@
                 <br>
                 <br>
                 <br>
-                <div class="analysis-content">
+                <div class="analysis-container">
                     <div>
-                        <h3 style="text-align: center;">Adjective Visualization</h3>
+                        <h3>Adjective Visualization</h3>
                         <p>This Adjective Visualization showcases the consistent use of the top 30
                             adjectives across all artists. Heavily used adjectives include words
                             like "bad," "good," and "well." These words specifically highlight the
@@ -96,19 +99,22 @@
                             37.</p>
                     </div>
                 </div>
+                <br>
                 <div>
                     <img src="images/networkADJ.png" alt="network adjective" class="adjectiveviz">
                 </div>
-                <div>
-                    <p><strong>Problems:</strong> We struggled to get this visualization to work
-                        with PyVis. The closeness centrality is also working incorrectly, however,
-                        we are looking to fix this by our project completion date. Moreover, we had
-                        the same problem as we did in our Noun Visualization. There was a tendency
-                        for SpaCy and NLP to pick up words like "la." As far as the accuracy of the
-                        Adjective Visualization, we cannot be certain. Some words like "okay" and
-                        "only" could have been picked up in a different context that was not using
-                        it as an adjective.</p>
-                </div>
+                
+            </div>
+            <div>
+               
+                <p><strong>Problems:</strong> We struggled to get this visualization to work
+                    with PyVis. The closeness centrality is also working incorrectly, however,
+                    we are looking to fix this by our project completion date. Moreover, we had
+                    the same problem as we did in our Noun Visualization. There was a tendency
+                    for SpaCy and NLP to pick up words like "la." As far as the accuracy of the
+                    Adjective Visualization, we cannot be certain. Some words like "okay" and
+                    "only" could have been picked up in a different context that was not using
+                    it as an adjective.</p>
             </div>
         </div>
         <div class="analysis-container">
@@ -160,8 +166,42 @@
                     </div>
                     <img src="images/olivia_keyness_likelihood.png" alt="keyness likelihood">
                 </div>
+                <br>
             </div>
+            <div class="analysis-container"><h3>Additional Antconc Finding</h3>
+            <p>Although the following information is not a visualization, we've decided to make note
+                of it here as it provides additional insight into our findings. After analyzing our
+                output data that was visualized in our PyViz noun network, Olivia's frequent use of
+                the word "love," despite her lower song count compared to the other artists, was
+                intriguing. We decided to take this information to AntConc, looking specifically at
+                the "NormRange" for the word "love" with the goal of finding how statistically
+                significant it is relative to each artist's song collection. Even with Olivia having
+                the least amount of collected songs amongst the other artists, her "NormRange" for
+                the word "love" was the highest at 0.630, followed by Billie at 0.459, Taylor at
+                0.370, and Sabrina at 0.233. This information further supports our previous
+                reasonings that Olivia's themes are greatly influenced by relationships, likely
+                exploring deeper emotions.</p></div>
         </div>
+        <div class="container">
+            <div>
+                <h2>SVG Graph</h2>
+                <br>
+                <div class="analysis-container">
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in
+                        iaculis nunc sed. Quisque id diam vel quam elementum pulvinar etiam non
+                        quam. Sit amet volutpat consequat mauris nunc congue nisi vitae
+                        suscipit. Sagittis orci a scelerisque purus semper eget duis at. Aliquet
+                        nec ullamcorper sit amet risus. Nisl condimentum id venenatis a
+                        condimentum. Fames ac turpis egestas integer eget aliquet nibh praesent.
+                        Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut.
+                        Gravida arcu ac tortor dignissim convallis aenean. Lacus vestibulum sed
+                        arcu non. Leo vel fringilla est ullamcorper eget nulla facilisi
+                        etiam.</p>
+                </div>
+            </div>
+            </div>
         <div class="copyright">
             <p>Created for the DIGIT 210: Text-analysis class at Penn State Behrend</p>
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
