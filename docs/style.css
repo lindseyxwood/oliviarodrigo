@@ -188,5 +188,28 @@ ul {
     overflow: auto;
     }
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0;
+}
 
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column-caption {
+  float: left;
+  width: 33.33%;
+  padding: 0;
+}
+
+
+.row-caption::after {
+  content: "";
+  clear: both;
+  display: table;
+}
