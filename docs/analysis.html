@@ -60,12 +60,25 @@
                             used 191 times. Individually it was used by Billie "24" times, Olivia
                             "25" times, Sabrina "86" times, and Taylor "51" times. When looking at
                             the line connections, one can see the thickness variation according to
-                            their use by each artist. Words like "one", "day", and "love" are used
-                            quite often.</p>
+                            their use by each artist. The use of nouns like "time," "night," "day,"
+                            and "daylight" indicates a focus on time and day. The prominence of
+                            "love," "baby," "friend," and "boy" suggests a recurring theme of
+                            relationships and love in their music. Specifically for Olivia, she used
+                            the word "love" "59" times throughout her songs. This is interesting as
+                            she had the least amount of songs compared to Taylor, Sabrina, and
+                            Billie. Their "love" count was "99," "56," and "44" respectively. Olivia
+                            seems to put heavy emphasis on love throughout her songs.</p>
                     </div>
                 </div>
                 <div>
                     <iframe src="images/degreeNetworkVis.html" width="1000" height="600"></iframe>
+                </div>
+                <div>
+                    <p><strong>Problems:</strong> If you look closely in the Network Visualization,
+                        some of the output is incorrect. Through using SpaCy and NLP(Natural
+                        Language Processing) we gathered the NOUN data, however, some of the NOUNs
+                        were not nouns. In our data visualization, it includes "da" and "-" which
+                        are not nouns. </p>
                 </div>
                 <br>
                 <br>
@@ -73,21 +86,28 @@
                 <div class="analysis-content">
                     <div>
                         <h3 style="text-align: center;">Adjective Visualization</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in
-                            iaculis nunc sed. Quisque id diam vel quam elementum pulvinar etiam non
-                            quam. Sit amet volutpat consequat mauris nunc congue nisi vitae
-                            suscipit. Sagittis orci a scelerisque purus semper eget duis at. Aliquet
-                            nec ullamcorper sit amet risus. Nisl condimentum id venenatis a
-                            condimentum. Fames ac turpis egestas integer eget aliquet nibh praesent.
-                            Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut.
-                            Gravida arcu ac tortor dignissim convallis aenean. Lacus vestibulum sed
-                            arcu non. Leo vel fringilla est ullamcorper eget nulla facilisi
-                            etiam.</p>
+                        <p>This Adjective Visualization showcases the consistent use of the top 30
+                            adjectives across all artists. Heavily used adjectives include words
+                            like "bad," "good," and "well." These words specifically highlight the
+                            tendency of these artists to describe something as "bad," "good," or
+                            "well." Olivia uses the word "good" "27" times, while Billie, Sabrina,
+                            and Taylor use it "18," "35," and "19." This is a high count considering
+                            Olivia has 26 songs compared to Taylor: 46, Sabrina: 30, and Billie:
+                            37.</p>
                     </div>
                 </div>
                 <div>
                     <img src="images/networkADJ.png" alt="network adjective" class="adjectiveviz">
+                </div>
+                <div>
+                    <p><strong>Problems:</strong> We struggled to get this visualization to work
+                        with PyVis. The closeness centrality is also working incorrectly, however,
+                        we are looking to fix this by our project completion date. Moreover, we had
+                        the same problem as we did in our Noun Visualization. There was a tendency
+                        for SpaCy and NLP to pick up words like "la." As far as the accuracy of the
+                        Adjective Visualization, we cannot be certain. Some words like "okay" and
+                        "only" could have been picked up in a different context that was not using
+                        it as an adjective.</p>
                 </div>
             </div>
         </div>
@@ -130,13 +150,13 @@
                             (94.186), followed by “I” (71.399), “her” (67.193), and “logical”
                             (48.680). While the findings from the Keyness (Effect) can ultimately be
                             inferred just by listening to Olivia's songs, the Keyness (Likelihood)
-                            results truly set apart Olivia's songwriting style from other pop
-                            female artists. The exceptionally high likelihood values of the words
-                            "him", "I", "her", and "logical" indicate just how prevelant and relied
-                            on they are by Olivia compared to the other artists. These words often
-                            correlate with themes of love and heartbreak, suggesting that these
-                            specific themes are more central for Olivia compared to Billie, Taylor,
-                            and Sabrina. </p>
+                            results truly set apart Olivia's songwriting style from other pop female
+                            artists. The exceptionally high likelihood values of the words "him",
+                            "I", "her", and "logical" indicate just how prevelant and relied on they
+                            are by Olivia compared to the other artists. These words often correlate
+                            with themes of love and heartbreak, suggesting that these specific
+                            themes are more central for Olivia compared to Billie, Taylor, and
+                            Sabrina. </p>
                     </div>
                     <img src="images/olivia_keyness_likelihood.png" alt="keyness likelihood">
                 </div>
