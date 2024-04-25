@@ -46,13 +46,16 @@ nav ul li {
     justify-content: center;
     align-items: center;
     font-family: 'Earwig Factory', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
     font-size: 70px;
-    background-image: url("images/purp.jpg");
-    background-size: 120%;
-    background-position: 80% 20%;
-    position: relative;
+    background-image: url("images/balloon.jpeg");
+    background-size: 100%;
+   background-position: 20% 9%;
     z-index: 1;
     height: 150px;
+   
+    
 
 
 }
@@ -184,5 +187,6 @@ ul {
     height: 300px;
     overflow: auto;
     }
+
 
 
