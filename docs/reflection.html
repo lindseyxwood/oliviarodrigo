@@ -47,12 +47,24 @@
         <br />
         <div class="container">
             <h2>Reflection</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <br>
+            <div class="analysis-container"><h3>Cleaning Text Files</h3>
+            <p>Our web scrape of the lyric text files from <a href="https://genius.com/"
+                    target="blank">Genius</a> provided us with a mostly clean and simple structure.
+                However, there was some unnecessary information that we needed to get rid of,
+                including the ads on the website that got scraped with the lyrics. We had some
+                errors at first when trying to find a way to only select these specific parts, but
+                we eventually found an effective way to find all the ads and replace them with
+                nothing in order to delete them. </p></div>
+            <div class="analysis-container"><h3>Regex</h3>
+            <p>Coming up with the regex to convert our text files into XML proved its challenges.
+                Capturing the type of section (Verse, Chorus, Bridge) was quite simple as they were
+                already in square brackets. However, finding an effective way to turn it into an
+                attribute of a section element that wraps around the corresponding lyrics was a lot
+                of trial and error. From this experience, we learned how important the order of
+                which you execute your Regex is, as each step builds off of one another. </p></div>
         </div>
         <br>
-        
         <div class="copyright">
             <p>Created for the DIGIT 210: Text-analysis class at Penn State Behrend</p>
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
