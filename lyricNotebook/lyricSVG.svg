@@ -1,153 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="5000"
-     height="1500"
-     viewBox="0 0 2000 3000">
+     width="500"
+     height="300"
+     viewBox="0 0 500 500">
    <desc>Song Number by Albums</desc>
-   <g id="wholePlot" transform="translate(50, 2000)">
-      <g id="oliviaSour">
-         <desc>oliviaSour and 11</desc>
-         <text font-size="2em" x="300" y="50">oliviaSour</text>
+   <g id="wholePlot" transform="translate(10, 200)">
+      <g id="olivia">
+         <desc>olivia and 10.333333333333333333</desc>
+         <text font-size="2em" x="100" y="50">olivia</text>
+         <text font-size="2em" x="100" y="100">10.333333333333333333</text>
          <line stroke="purple"
-               stroke-width="150"
+               stroke-width="50"
+               x1="100"
+               x2="100"
+               y1="0"
+               y2="-103.33333333333333333"/>
+      </g>
+      <g id="billie">
+         <desc>billie and 12.333333333333333333</desc>
+         <text font-size="2em" x="200" y="50">billie</text>
+         <text font-size="2em" x="200" y="100">12.333333333333333333</text>
+         <line stroke="blue"
+               stroke-width="50"
+               x1="200"
+               x2="200"
+               y1="0"
+               y2="-123.33333333333333333"/>
+      </g>
+      <g id="sabrina">
+         <desc>sabrina and 10</desc>
+         <text font-size="2em" x="300" y="50">sabrina</text>
+         <text font-size="2em" x="300" y="100">10</text>
+         <line stroke="pink"
+               stroke-width="50"
                x1="300"
                x2="300"
                y1="0"
-               y2="-5.5"/>
+               y2="-100"/>
       </g>
-      <g id="oliviaGutsSecret">
-         <desc>oliviaGutsSecret and 4</desc>
-         <text font-size="2em" x="300" y="50">oliviaGutsSecret</text>
-         <line stroke="purple"
-               stroke-width="150"
-               x1="300"
-               x2="300"
-               y1="0"
-               y2="-2"/>
-      </g>
-      <g id="oliviaGuts">
-         <desc>oliviaGuts and 16</desc>
-         <text font-size="2em" x="300" y="50">oliviaGuts</text>
-         <line stroke="purple"
-               stroke-width="150"
-               x1="300"
-               x2="300"
-               y1="0"
-               y2="-8"/>
-      </g>
-   </g>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="5000"
-     height="1500"
-     viewBox="0 0 2000 3000">
-   <desc>Song Number by Albums</desc>
-   <g id="wholePlot" transform="translate(50, 2000)">
-      <g id="billieDSAM">
-         <desc>billieDSAM and 9</desc>
-         <text font-size="2em" x="600" y="50">billieDSAM</text>
-         <line stroke="blue"
-               stroke-width="150"
-               x1="600"
-               x2="600"
-               y1="0"
-               y2="-4.5"/>
-      </g>
-      <g id="billieWWAFAWDWG">
-         <desc>billieWWAFAWDWG and 13</desc>
-         <text font-size="2em" x="600" y="50">billieWWAFAWDWG</text>
-         <line stroke="blue"
-               stroke-width="150"
-               x1="600"
-               x2="600"
-               y1="0"
-               y2="-6.5"/>
-      </g>
-      <g id="billieHTE">
-         <desc>billieHTE and 15</desc>
-         <text font-size="2em" x="600" y="50">billieHTE</text>
-         <line stroke="blue"
-               stroke-width="150"
-               x1="600"
-               x2="600"
-               y1="0"
-               y2="-7.5"/>
-      </g>
-   </g>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="5000"
-     height="1500"
-     viewBox="0 0 2000 3000">
-   <desc>Song Number by Albums</desc>
-   <g id="wholePlot" transform="translate(50, 2000)">
-      <g id="sabrinaSA2">
-         <desc>sabrinaSA2 and 9</desc>
-         <text font-size="2em" x="900" y="50">sabrinaSA2</text>
-         <line stroke="pink"
-               stroke-width="150"
-               x1="900"
-               x2="900"
-               y1="0"
-               y2="-4.5"/>
-      </g>
-      <g id="sabrinaEICS">
-         <desc>sabrinaEICS and 13</desc>
-         <text font-size="2em" x="900" y="50">sabrinaEICS</text>
-         <line stroke="pink"
-               stroke-width="150"
-               x1="900"
-               x2="900"
-               y1="0"
-               y2="-6.5"/>
-      </g>
-      <g id="sabrinaSA1">
-         <desc>sabrinaSA1 and 8</desc>
-         <text font-size="2em" x="900" y="50">sabrinaSA1</text>
-         <line stroke="pink"
-               stroke-width="150"
-               x1="900"
-               x2="900"
-               y1="0"
-               y2="-4"/>
-      </g>
-   </g>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="5000"
-     height="1500"
-     viewBox="0 0 2000 3000">
-   <desc>Song Number by Albums</desc>
-   <g id="wholePlot" transform="translate(50, 2000)">
-      <g id="taylorEvermore">
-         <desc>taylorEvermore and 15</desc>
-         <text font-size="2em" x="1200" y="50">taylorEvermore</text>
+      <g id="taylor">
+         <desc>taylor and 15.333333333333333333</desc>
+         <text font-size="2em" x="400" y="50">taylor</text>
+         <text font-size="2em" x="400" y="100">15.333333333333333333</text>
          <line stroke="red"
-               stroke-width="150"
-               x1="1200"
-               x2="1200"
+               stroke-width="50"
+               x1="400"
+               x2="400"
                y1="0"
-               y2="-7.5"/>
-      </g>
-      <g id="taylorLover">
-         <desc>taylorLover and 18</desc>
-         <text font-size="2em" x="1200" y="50">taylorLover</text>
-         <line stroke="red"
-               stroke-width="150"
-               x1="1200"
-               x2="1200"
-               y1="0"
-               y2="-9"/>
-      </g>
-      <g id="taylorMidnights">
-         <desc>taylorMidnights and 13</desc>
-         <text font-size="2em" x="1200" y="50">taylorMidnights</text>
-         <line stroke="red"
-               stroke-width="150"
-               x1="1200"
-               x2="1200"
-               y1="0"
-               y2="-6.5"/>
+               y2="-153.33333333333333333"/>
       </g>
    </g>
 </svg>

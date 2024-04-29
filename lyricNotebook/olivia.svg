@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="5000"
+    height="1500"
+    viewBox="0 0 2000 3000">
+    <desc>Song Number by Albums</desc>
+    <g id="wholePlot" transform="translate(50, 2000)">
+        <g id="oliviaSour">
+            <desc>oliviaSour and 11</desc>
+            <text font-size="2em" x="300" y="50">oliviaSour</text>
+            <line stroke="purple"
+                stroke-width="150"
+                x1="300"
+                x2="300"
+                y1="0"
+                y2="-110"/>
+        </g>
+        <g id="oliviaGutsSecret">
+            <desc>oliviaGutsSecret and 4</desc>
+            <text font-size="2em" x="300" y="50">oliviaGutsSecret</text>
+            <line stroke="purple"
+                stroke-width="150"
+                x1="300"
+                x2="300"
+                y1="0"
+                y2="-40"/>
+        </g>
+        <g id="oliviaGuts">
+            <desc>oliviaGuts and 16</desc>
+            <text font-size="2em" x="300" y="50">oliviaGuts</text>
+            <line stroke="purple"
+                stroke-width="150"
+                x1="300"
+                x2="300"
+                y1="0"
+                y2="-160"/>
+        </g>
+    </g>
+</svg>

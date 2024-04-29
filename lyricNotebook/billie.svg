@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="5000"
+    height="1500"
+    viewBox="0 0 2000 3000">
+    <desc>Song Number by Albums</desc>
+    <g id="wholePlot" transform="translate(50, 2000)">
+        <g id="billieDSAM">
+            <desc>billieDSAM and 9</desc>
+            <text font-size="2em" x="600" y="50">billieDSAM</text>
+            <line stroke="blue"
+                stroke-width="150"
+                x1="600"
+                x2="600"
+                y1="0"
+                y2="-90"/>
+        </g>
+        <g id="billieWWAFAWDWG">
+            <desc>billieWWAFAWDWG and 13</desc>
+            <text font-size="2em" x="600" y="50">billieWWAFAWDWG</text>
+            <line stroke="blue"
+                stroke-width="150"
+                x1="600"
+                x2="600"
+                y1="0"
+                y2="-130"/>
+        </g>
+        <g id="billieHTE">
+            <desc>billieHTE and 15</desc>
+            <text font-size="2em" x="600" y="50">billieHTE</text>
+            <line stroke="blue"
+                stroke-width="150"
+                x1="600"
+                x2="600"
+                y1="0"
+                y2="-150"/>
+        </g>
+    </g>
+</svg>
