@@ -2,9 +2,11 @@
    <svg xmlns="http://www.w3.org/2000/svg"
       width="1500"
       height="400"
-      viewBox="30 0 1500 400">
+      viewBox="30 0 1500 400"
+      style="margin-bottom: -200px; margin-top: -200px"
+      >
       <desc>Song Number by Albums</desc>
-      <g id="wholePlot" transform="translate(50, 350)">
+      <g id="wholePlot" transform="translate(280, 350)">
          <g id="oliviaGuts">
             <desc>oliviaGuts and 12</desc>
             <text font-size="1em" x="50" y="-130" text-anchor="middle">12</text>
@@ -43,9 +45,10 @@
    <svg xmlns="http://www.w3.org/2000/svg"
       width="1500"
       height="400"
-      viewBox="30 0 1500 400">
+      viewBox="30 0 1500 400"
+      style="margin-bottom: -200px">
       <desc>Song Number by Albums</desc>
-      <g id="wholePlot" transform="translate(50, 350)">
+      <g id="wholePlot" transform="translate(280, 350)">
          <g id="billieDSAM">
             <desc>billieDSAM and 9</desc>
             <text font-size="1em" x="50" y="-60" text-anchor="middle">9</text>
@@ -84,9 +87,10 @@
    <svg xmlns="http://www.w3.org/2000/svg"
       width="1500"
       height="400"
-      viewBox="30 0 1500 400">
+      viewBox="30 0 1500 400"
+      style="margin-bottom: -200px">
       <desc>Song Number by Albums</desc>
-      <g id="wholePlot" transform="translate(50, 350)">
+      <g id="wholePlot" transform="translate(280, 350)">
          <g id="sabrinaSA2">
             <desc>sabrinaSA2 and 9</desc>
             <text font-size="1em" x="50" y="-60" text-anchor="middle">9</text>
@@ -125,9 +129,10 @@
    <svg xmlns="http://www.w3.org/2000/svg"
       width="1500"
       height="400"
-      viewBox="30 0 1500 400">
+      viewBox="30 0 1500 400"
+      style="margin-bottom: -200px">
       <desc>Song Number by Albums</desc>
-      <g id="wholePlot" transform="translate(50, 350)">
+      <g id="wholePlot" transform="translate(280, 350)">
          <g id="taylorEvermore">
             <desc>taylorEvermore and 15</desc>
             <text font-size="1em" x="50" y="-85" text-anchor="middle">15</text>
