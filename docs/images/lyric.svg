@@ -1,0 +1,166 @@
+<svg>
+   <svg xmlns="http://www.w3.org/2000/svg"
+      width="1500"
+      height="400"
+      viewBox="30 0 1500 400">
+      <desc>Song Number by Albums</desc>
+      <g id="wholePlot" transform="translate(50, 350)">
+         <g id="oliviaGuts">
+            <desc>oliviaGuts and 12</desc>
+            <text font-size="1em" x="50" y="-130" text-anchor="middle">12</text>
+            <text font-size="1em" x="50" y="20" text-anchor="middle">oliviaGuts</text>
+            <line stroke="purple"
+               stroke-width="10"
+               x1="50"
+               x2="50"
+               y1="0"
+               y2="-120"/>
+         </g>
+         <g id="oliviaGutsSecret">
+            <desc>oliviaGutsSecret and 4</desc>
+            <text font-size="1em" x="250" y="-50" text-anchor="middle">4</text>
+            <text font-size="1em" x="250" y="20" text-anchor="middle">oliviaGutsSecret</text>
+            <line stroke="purple"
+               stroke-width="10"
+               x1="250"
+               x2="250"
+               y1="0"
+               y2="-40"/>
+         </g>
+         <g id="oliviaSour">
+            <desc>oliviaSour and 11</desc>
+            <text font-size="1em" x="450" y="-120" text-anchor="middle">11</text>
+            <text font-size="1em" x="450" y="20" text-anchor="middle">oliviaSour</text>
+            <line stroke="purple"
+               stroke-width="10"
+               x1="450"
+               x2="450"
+               y1="0"
+               y2="-110"/>
+         </g>
+      </g>
+   </svg>
+   <svg xmlns="http://www.w3.org/2000/svg"
+      width="1500"
+      height="400"
+      viewBox="30 0 1500 400">
+      <desc>Song Number by Albums</desc>
+      <g id="wholePlot" transform="translate(50, 350)">
+         <g id="billieDSAM">
+            <desc>billieDSAM and 9</desc>
+            <text font-size="1em" x="50" y="-60" text-anchor="middle">9</text>
+            <text font-size="1em" x="50" y="20" text-anchor="middle">billieDSAM</text>
+            <line stroke="blue"
+               stroke-width="10"
+               x1="50"
+               x2="50"
+               y1="0"
+               y2="-50"/>
+         </g>
+         <g id="billieWWAFAWDWG">
+            <desc>billieWWAFAWDWG and 13</desc>
+            <text font-size="1em" x="250" y="-75" text-anchor="middle">13</text>
+            <text font-size="1em" x="250" y="20" text-anchor="middle">billieWWAFAWDWG</text>
+            <line stroke="blue"
+               stroke-width="10"
+               x1="250"
+               x2="250"
+               y1="0"
+               y2="-65"/>
+         </g>
+         <g id="billieHTE">
+            <desc>billieHTE and 15</desc>
+            <text font-size="1em" x="450" y="-85" text-anchor="middle">15</text>
+            <text font-size="1em" x="450" y="20" text-anchor="middle">billieHTE</text>
+            <line stroke="blue"
+               stroke-width="10"
+               x1="450"
+               x2="450"
+               y1="0"
+               y2="-75"/>
+         </g>
+      </g>
+   </svg>
+   <svg xmlns="http://www.w3.org/2000/svg"
+      width="1500"
+      height="400"
+      viewBox="30 0 1500 400">
+      <desc>Song Number by Albums</desc>
+      <g id="wholePlot" transform="translate(50, 350)">
+         <g id="sabrinaSA2">
+            <desc>sabrinaSA2 and 9</desc>
+            <text font-size="1em" x="50" y="-60" text-anchor="middle">9</text>
+            <text font-size="1em" x="50" y="20" text-anchor="middle">sabrinaSA2</text>
+            <line stroke="pink"
+               stroke-width="10"
+               x1="50"
+               x2="50"
+               y1="0"
+               y2="-50"/>
+         </g>
+         <g id="sabrinaEICS">
+            <desc>sabrinaEICS and 13</desc>
+            <text font-size="1em" x="250" y="-75" text-anchor="middle">13</text>
+            <text font-size="1em" x="250" y="20" text-anchor="middle">sabrinaEICS</text>
+            <line stroke="pink"
+               stroke-width="10"
+               x1="250"
+               x2="250"
+               y1="0"
+               y2="-65"/>
+         </g>
+         <g id="sabrinaSA1">
+            <desc>sabrinaSA1 and 8</desc>
+            <text font-size="1em" x="450" y="-50" text-anchor="middle">8</text>
+            <text font-size="1em" x="450" y="20" text-anchor="middle">sabrinaSA1</text>
+            <line stroke="pink"
+               stroke-width="10"
+               x1="450"
+               x2="450"
+               y1="0"
+               y2="-40"/>
+         </g>
+      </g>
+   </svg>
+   <svg xmlns="http://www.w3.org/2000/svg"
+      width="1500"
+      height="400"
+      viewBox="30 0 1500 400">
+      <desc>Song Number by Albums</desc>
+      <g id="wholePlot" transform="translate(50, 350)">
+         <g id="taylorEvermore">
+            <desc>taylorEvermore and 15</desc>
+            <text font-size="1em" x="50" y="-85" text-anchor="middle">15</text>
+            <text font-size="1em" x="50" y="20" text-anchor="middle">taylorEvermore</text>
+            <line stroke="red"
+               stroke-width="10"
+               x1="50"
+               x2="50"
+               y1="0"
+               y2="-75"/>
+         </g>
+         <g id="taylorLover">
+            <desc>taylorLover and 18</desc>
+            <text font-size="1em" x="250" y="-100" text-anchor="middle">18</text>
+            <text font-size="1em" x="250" y="20" text-anchor="middle">taylorLover</text>
+            <line stroke="red"
+               stroke-width="10"
+               x1="250"
+               x2="250"
+               y1="0"
+               y2="-90"/>
+         </g>
+         <g id="taylorMidnights">
+            <desc>taylorMidnights and 13</desc>
+            <text font-size="1em" x="450" y="-75" text-anchor="middle">13</text>
+            <text font-size="1em" x="450" y="20" text-anchor="middle">taylorMidnights</text>
+            <line stroke="red"
+               stroke-width="10"
+               x1="450"
+               x2="450"
+               y1="0"
+               y2="-65"/>
+         </g>
+      </g>
+   </svg>
+</svg>
